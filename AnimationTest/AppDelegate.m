@@ -19,6 +19,25 @@
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
+    dispatch_queue_t concurrentQueue = dispatch_queue_create("my.concurrent.queue", DISPATCH_QUEUE_CONCURRENT);
+    NSLog(@"1");
+    dispatch_sync(concurrentQueue, ^(){
+        NSLog(@"2");
+        [NSThread sleepForTimeInterval:10];
+        NSLog(@"3");
+    });
+    NSLog(@"4");
+
+    NSLog(@"1");
+    dispatch_async(concurrentQueue, ^(){
+        NSLog(@"2");
+        [NSThread sleepForTimeInterval:10];
+        NSLog(@"3");
+    });
+    NSLog(@"4");
+
+    
+
     return YES;
 }
 
