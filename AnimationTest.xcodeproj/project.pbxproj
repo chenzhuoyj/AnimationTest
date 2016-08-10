@@ -16,10 +16,6 @@
 		CE060E3C1C216C5000857037 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE060E3B1C216C5000857037 /* AnimationTestTests.m */; };
 		CE060E471C216C5000857037 /* AnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE060E461C216C5000857037 /* AnimationTestUITests.m */; };
 		CE8E09DF1C22943C00EF119B /* hhhhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E09DE1C22943C00EF119B /* hhhhViewController.m */; };
-		CE8E09E31C22BCBF00EF119B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E09E11C22BCBF00EF119B /* Alamofire.framework */; };
-		CE8E09E41C22BCBF00EF119B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E09E11C22BCBF00EF119B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8E09E51C22BCBF00EF119B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E09E21C22BCBF00EF119B /* SwiftyJSON.framework */; };
-		CE8E09E61C22BCBF00EF119B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E09E21C22BCBF00EF119B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE8E09EC1C22BEEB00EF119B /* swiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E09EA1C22BEEB00EF119B /* swiftViewController.swift */; };
 		CE8E09ED1C22BEEB00EF119B /* swiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8E09EB1C22BEEB00EF119B /* swiftViewController.xib */; };
 		CEB3E4241C2D3F8C0088D1AB /* HahaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3E4221C2D3F8C0088D1AB /* HahaViewController.m */; };
@@ -50,8 +46,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CE8E09E61C22BCBF00EF119B /* SwiftyJSON.framework in Embed Frameworks */,
-				CE8E09E41C22BCBF00EF119B /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,8 +71,6 @@
 		CE060E481C216C5000857037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8E09DD1C22943C00EF119B /* hhhhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hhhhViewController.h; sourceTree = "<group>"; };
 		CE8E09DE1C22943C00EF119B /* hhhhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hhhhViewController.m; sourceTree = "<group>"; };
-		CE8E09E11C22BCBF00EF119B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		CE8E09E21C22BCBF00EF119B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		CE8E09E91C22BEEB00EF119B /* AnimationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE8E09EA1C22BEEB00EF119B /* swiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftViewController.swift; sourceTree = "<group>"; };
 		CE8E09EB1C22BEEB00EF119B /* swiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = swiftViewController.xib; sourceTree = "<group>"; };
@@ -92,8 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8E09E51C22BCBF00EF119B /* SwiftyJSON.framework in Frameworks */,
-				CE8E09E31C22BCBF00EF119B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +107,6 @@
 		CE060E151C216C5000857037 = {
 			isa = PBXGroup;
 			children = (
-				CE8E09E11C22BCBF00EF119B /* Alamofire.framework */,
-				CE8E09E21C22BCBF00EF119B /* SwiftyJSON.framework */,
 				CE060E201C216C5000857037 /* AnimationTest */,
 				CE060E3A1C216C5000857037 /* AnimationTestTests */,
 				CE060E451C216C5000857037 /* AnimationTestUITests */,

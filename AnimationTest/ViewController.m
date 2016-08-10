@@ -28,7 +28,7 @@
     self.animationView.layer.cornerRadius = 75;
     [self.navigationController setHidesBarsOnSwipe:YES];
 //    self.button
-//    [self registerForPreviewingWithDelegate:self sourceView:self.animationView];
+    [self registerForPreviewingWithDelegate:self sourceView:self.animationView];
     
     [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(doSomeThings) userInfo:nil repeats:YES];
 }
